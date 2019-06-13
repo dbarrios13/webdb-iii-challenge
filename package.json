@@ -1,22 +1,12 @@
 {
   "name": "webdb-iii-challenge",
   "version": "1.0.0",
-  "description": "## Topics",
+  "description": "Webdb iii challenge",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "nodemon index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dbarrios13/webdb-iii-challenge.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dbarrios13/webdb-iii-challenge/issues"
-  },
-  "homepage": "https://github.com/dbarrios13/webdb-iii-challenge#readme",
+  "author": "David Barrios",
   "dependencies": {
     "express": "^4.17.1",
     "helmet": "^3.18.0",
